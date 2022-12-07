@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element type="boolean" scope="shop">
+            <name>AuflageVote</name>
+            <label lang="de">AuflageVote</label>
+            <label>Show AuflageVote</label>
+            <value>true</value>
+            <description lang="de">Zeigt Bewertungen der Vorauflage auf der Detailseite unter der Artikelnummer an</description>
+            <description>Displays vote of pre-edition field on the details page under the item number</description>
+        </element>
+    </elements>
+</config>
