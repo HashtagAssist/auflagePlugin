@@ -74,7 +74,6 @@ class FrontendDispatch implements SubscriberInterface
 
         $sArticle = $view->getAssign('sArticle');
         $testVote     = '';
-        console_log($sArticle);
           
         if (!is_null($sArticle) && isset($sArticle['neuauflage'])) {
             $preEditionfromArticles = substr($sArticle['neuauflage'],0, -1);
@@ -250,7 +249,6 @@ class FrontendDispatch implements SubscriberInterface
         //Get article from View
         $sArticles = $view->getAssign('sSearchResults');
         $sArticles = $sArticles['sArticles'];
-        console_log($sArticles);
 
         //iterate throug article
         foreach ($sArticles as $sArticle) {
@@ -304,7 +302,6 @@ class FrontendDispatch implements SubscriberInterface
             }
             $newSArticle[] = $sArticle;
         }
-        console_log($newSArticle);
         $view->assign('sArticles', $newSArticle);    
         $view->assign(
             'sSearchResults',
