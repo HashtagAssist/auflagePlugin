@@ -1,4 +1,4 @@
-# Plugin zum Anzeigen von Bewertungen von Vorauflagen. 
+# Shopware 5 Plugin zum Anzeigen von Bewertungen von Vorauflagen. 
 Funktioniert im Listing, Detail und Suche. 
 
 # Backend
